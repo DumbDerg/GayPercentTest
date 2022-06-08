@@ -12,7 +12,7 @@ public class Main {
             int x = random.nextInt(0, 101);
             System.out.println("Who do you want to test? (Type \"self\" if you want to test yourself!)");
             String name = scanner.next();
-            if (name == "self") {
+            if (name.equals("self")) {
                 System.out.println("You're " + x + "% gay! UwU \nHappy Pride Month!");
             }else {
                 System.out.println(name + " is " + x + "% gay! UwU\nHappy Pride Month!");
